@@ -61,6 +61,6 @@ compute_fraction.register_resources(
 ff.register_training_set(
     "traindata",
     "default",
-    features=[("foo", "default"), ("bar", "default")],
     label=("fraction", "default"),
+    features=[("foo", "default"), ("bar", "default")],
 )

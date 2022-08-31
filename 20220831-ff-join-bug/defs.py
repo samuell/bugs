@@ -35,7 +35,7 @@ dummydata.register_resources(
 )
 
 
-@local.df_transformation(variant="default", inputs=[()])
+@local.df_transformation(variant="default", inputs=[("dummydata", "default")])
 def compute_fraction(df):
     newdf = df
     newdf["fraq"] = df["foo"] / df["bar"]

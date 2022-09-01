@@ -1,4 +1,6 @@
-# Time-correct join bug
+# [FIXED] Time-correct join bug
+
+The bug is reported as [#423](https://github.com/featureform/featureform/issues/423) and now FIXED!
 
 ## How to reproduce
 

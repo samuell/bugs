@@ -4,8 +4,8 @@ client = ff.ServingClient(local=True)
 
 train_data = client.training_set("traindata", "default")
 
-for features, labels in train_data:
+for row in train_data:
     print("Features:")
-    print(features)
-    print("Labels:")
-    print(labels)
+    print(row.features())
+    print("Label:")
+    print(row.label())

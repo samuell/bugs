@@ -52,3 +52,31 @@ Traceback (most recent call last):
     raise ValueError(
 ValueError: Could not set entity column. No column name person exists in compute_fooplusbar-default
 ```
+
+### Other info
+
+If using the entity column name (`person_id`) instead of the entity name
+(`person`) for the feature based on a transformation, we get output, but not
+correct values:
+
+*Expected output:*
+
+```bash
+-------Foo-------
+0.002
+-------Bar-------
+0.004
+-------FooPlusBar-------
+0.006
+```
+
+*Actual output"*
+
+```bash
+-------Foo-------
+0.002
+-------Bar-------
+0.004
+-------FooPlusBar-------
+0.001
+```

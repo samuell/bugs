@@ -7,7 +7,7 @@ The bug is reported as [#423](https://github.com/featureform/featureform/issues/
 ### Setting up the feature store
 
 ```
-git clone https://github.com/featureform/featureform.git
+git clone https://github.com/samuell/bugs.git
 cd 20220831-ff-join-bug
 poetry install
 poetry shell

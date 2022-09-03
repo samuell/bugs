@@ -11,6 +11,6 @@ print("-"*7 + "Bar" + "-"*7)
 bar = client.features([("bar", "default")], {"person": "samuel"})
 print(f"{bar[0]:.3f}")
 
-print("-"*7 + "fooplusbar" + "-"*7)
+print("-"*7 + "FooPlusBar" + "-"*7)
 fooplusbar = client.features([("fooplusbar", "default")], {"person": "samuel"})
 print(f"{fooplusbar[0]:.3f}")

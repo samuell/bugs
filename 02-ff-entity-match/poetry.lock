@@ -27,7 +27,7 @@ python-versions = "*"
 
 [[package]]
 name = "featureform"
-version = "1.1.12"
+version = "1.1.13rc0"
 description = "Package for the Featureform Feature Store"
 category = "main"
 optional = false
@@ -332,7 +332,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.9,<3.11"
-content-hash = "cb6332559eee83a3c3f03ef40383ef429a10a22cfb0db4dfe2dac722b1f16cef"
+content-hash = "e7cc4a89af7fd734055f0450a70b4d174905cd5c7dc8e15a3a9dabf936c9f82e"
 
 [metadata.files]
 click = [

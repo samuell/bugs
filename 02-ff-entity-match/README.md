@@ -1,4 +1,8 @@
-# Entity matching bug in FeatureForm
+# [Fixed] Entity matching bug in FeatureForm
+
+This bug is documented in issue [#437](https://github.com/featureform/featureform/issues/437) on the FeatureForm repo.
+
+This bug is fixed in FeatureForm `1.1.13rc0` as mentioned in the issue.
 
 ## How to reproduce
 

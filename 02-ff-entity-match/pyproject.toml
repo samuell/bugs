@@ -6,7 +6,7 @@ authors = ["Samuel Lampa <samuel.lampa@rilnet.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-featureform = "1.1.12"
+featureform = "1.1.13rc0"
 
 [tool.poetry.dev-dependencies]
 
